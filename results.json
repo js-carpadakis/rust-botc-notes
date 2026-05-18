@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "url": "https://example.com",
+    "scraped_at": "2026-05-16T20:37:43.046888500+00:00",
+    "fields": [
+      {
+        "name": "title",
+        "value": "Example Domain"
+      },
+      {
+        "name": "description",
+        "value": "This domain is for use in documentation examples without needing permission. Avoid use in operations."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "url": "https://www.cnn.com",
+    "scraped_at": "2026-05-16T20:45:00.084039500+00:00",
+    "fields": [
+      {
+        "name": "description",
+        "value": "Show all"
+      }
+    ]
+  }
+]
