@@ -4,6 +4,20 @@
 
 ---
 
+## Background
+
+My partner and I are board game obsessives. We collect all kinds of games on the shelves of our dedicated game room, and we invite a myriad of friends and collegues over to play them every month. Our most recent and most intense obsession is with Blood on the Clocktower, a social deduction game in the likes of Werewolf and Mafia, where a secret team of "evil" players try to deceive and divide their good neighbors into turning on each other. We have hosted several Clocktower game nights, each filled with hours of laughter, mystery, and suspense. The most prominent way for us and like-minded fans to play the game is in the online web app: **https://botc.app**  
+
+![BotC web app game sample image](BotcTroubleBrewingGrimSample.png)
+
+While exceptional at recreating the joy of the game in a digital format, I find the official app lacking in a few ways that I hope to address with this project.
+1. Taking custom notes to track crucial information within a game is clunky and difficult to achieve
+2. There is no built-in way to save a reference to a player's game state, meaning an extra great game can never be looked back at or re-lived outside of our individual memories.
+
+My vision for this project is to be able to back-up and retrieve pieces of my favorite clocktower games. This could either be from my own perspective, so I can realize after the fact I had the critical information to solve the game right under my nose the whole time, or from another player's entirely different experience in the same game. _How did the demon player decide to bluff that specific role to me right then and there?_
+
+---
+
 ## What's Inside
 
 This is a WIP project. The goal is to eventually allow users to create, store, and retrieve custom note templates corresponding to specific gsme states scraped from the Blood on the Clocktower web app. Currently, it ships **two standalone binaries** that share a single SQLite database:
